@@ -35,11 +35,11 @@ local Player = Players.LocalPlayer
 
 local Data = Player:WaitForChild("Data")
 local Level = Data:WaitForChild("Level")
-Level.Value = 5000
 local Fragments = Data:WaitForChild("Fragments")
-Fragments.Value = 100000000000
 local Money = Data:WaitForChild("Beli")
 Money.Value = 100000000000
+Level.Value = 5000
+Fragments.Value = 100000000000
 
 local Modules = ReplicatedStorage:WaitForChild("Modules")
 local Net = Modules:WaitForChild("Net")
