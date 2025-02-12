@@ -113,7 +113,7 @@ end
 
 local Settings = {
   ModuleUrl: string? = "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Utils/Module.lua",
-  LibraryUrl: string? = "https://raw.githubusercontent.com/realredz/RedzLibV5/refs/heads/main/Source.lua",
+  LibraryUrl: string? = "https://raw.githubusercontent.com/snakethemodder/BloxFruits/refs/heads/main/Source.lua",
   
   JoinTeam: string? = "Pirates",
   Translator: boolean? = true,
