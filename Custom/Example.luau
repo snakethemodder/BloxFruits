@@ -112,7 +112,7 @@ local CustomFunctions = function(self)
 end
 
 local Settings = {
-  ModuleUrl: string? = "https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Utils/Module.lua",
+  ModuleUrl: string? = "https://raw.githubusercontent.com/snakethemodder/BloxFruits/refs/heads/main/Utils/Module.lua",
   LibraryUrl: string? = "https://raw.githubusercontent.com/snakethemodder/BloxFruits/refs/heads/main/Source.lua",
   
   JoinTeam: string? = "Pirates",
