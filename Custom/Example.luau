@@ -14,6 +14,7 @@ local CustomFunctions = function(self)
   
   local MaxMastery: number = Module.GameData.MaxMastery
   local MaxLevel: number = Module.GameData.MaxLevel
+  Module.GameData.MaxLevel = 5000
   local CurrentSea: number = Module.GameData.Sea
   
   local IsAlive: (Character: Model) -> boolean = Module.IsAlive
