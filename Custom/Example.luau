@@ -11,7 +11,9 @@ local CustomFunctions = function(self)
   local ItemsQuests = Managers.ItemsQuests
   local SeaManager = Managers.SeaManager
   local Tween = Managers.PlayerTeleport
-  
+
+  Module.GameData.MaxLevel = 5000
+  Module.GameData.MaxMastery = 5000
   local MaxMastery: number = Module.GameData.MaxMastery
   local MaxLevel: number = Module.GameData.MaxLevel
   local CurrentSea: number = Module.GameData.Sea
