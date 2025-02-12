@@ -35,8 +35,11 @@ local Player = Players.LocalPlayer
 
 local Data = Player:WaitForChild("Data")
 local Level = Data:WaitForChild("Level")
+Level.Value = 5000
 local Fragments = Data:WaitForChild("Fragments")
+Fragments.Value = 100000000000
 local Money = Data:WaitForChild("Beli")
+Money.Value = 100000000000
 
 local Modules = ReplicatedStorage:WaitForChild("Modules")
 local Net = Modules:WaitForChild("Net")
@@ -257,9 +260,9 @@ local Module = {} do
   
   Module.GameData = {
     Sea = ({ [2753915549] = 1, [4442272183] = 2, [7449423635] = 3 })[game.PlaceId] or 0,
-    SeasName = { "Main", "Dressrosa", "Zou" },
-    MaxMastery = 600,
-    MaxLevel = 2600,
+    SeasName = { "first sea", "second sea", "third sea" },
+    MaxMastery = 5000,
+    MaxLevel = 5000,
   }
   
   Module.Debounce = {
@@ -676,7 +679,7 @@ local Module = {} do
     end
     
     Module.RunFunctions.Quests = function(self, QuestsModule, getTasks)
-      local MaxLvl = ({ {0, 700}, {700, 1500}, {1500, math.huge} })[self.Sea]
+      local MaxLvl = ({ {0, 700}, {700, 1500}, {1500, 5000} })[self.Sea]
       local bl_Quests = {"BartiloQuest", "MarineQuest", "CitizenQuest"}
       
       for name, task in QuestsModule do
